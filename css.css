@@ -67,3 +67,7 @@ button:hover{
 #igual:hover{
     background-color: rgb(131, 1, 252);
 }
+
+h1{
+    color: green;
+}
