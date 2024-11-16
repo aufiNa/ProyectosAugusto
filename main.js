@@ -13,13 +13,15 @@ function nums(boton_evento) {
     if (num == "igual") {
         try{
             input.value = eval(input.value);
-            console.log(input.value);
             
         } catch {
             input.value = "error";
         }
-     
-       
+        return;
+    }
+    if (num === "borrar") {
+        input.value = input.value.slice(0, -1);
+        console.log(res);
         return;
     }
 
